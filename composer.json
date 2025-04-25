@@ -28,6 +28,4 @@
     "scripts": {
         "test": "phpunit"
     },
-	"minimum-stability": "stable",
-	"prefer-stable": true
 }
