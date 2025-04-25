@@ -51,13 +51,25 @@ composer require ferencbalogh/timy
 ### Usage
 
 ```
-use Timy\DurationFormatter;
+use FerencBalogh\Timy\DurationFormatter;
 
 $formatter = new DurationFormatter();
 
 echo $formatter->format(0); // Output: "now"
 echo $formatter->format(120); // Output: "2 minutes"
 ```
+
+### Usage in laravel
+
+```
+use FerencBalogh\Timy\DurationFormatter;
+
+Route::get('/timy',  function () {
+    $duration = new DurationFormatter();
+    return $duration->format(111);
+});
+```
+
 
 ### Notes:
 This package is open-sourced software licensed under the MIT license
