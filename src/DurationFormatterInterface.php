@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Timy;
+namespace FerencBalogh\Timy;
 
 interface DurationFormatterInterface
 {

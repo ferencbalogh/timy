@@ -1,6 +1,6 @@
 {
     "name": "ferencbalogh/timy",
-    "description": "Timy formats a duration given in seconds into a human-friendly format.",
+    "description": "src formats a duration given in seconds into a human-friendly format.",
     "type": "library",
     "license": "MIT",
     "authors": [

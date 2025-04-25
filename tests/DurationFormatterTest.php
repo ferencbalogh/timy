@@ -2,8 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\Test;
-use Timy\DurationFormatter;
-
+use FerencBalogh\Timy\DurationFormatter;
 class DurationFormatterTest extends TestCase
 {
     private DurationFormatter $formatter;
